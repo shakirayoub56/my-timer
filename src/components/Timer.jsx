@@ -22,10 +22,10 @@ const Timer = () => {
     },[time,endTime])
   return (
       <div>
-          Initial Time : <input onChange={(e) => setTime(+e.target.value)} /> <br />
-          End Time : <input onChange={(e) => setEndTime(+e.target.value)}/> <br />
+          Initial Time: <input onChange={(e) => setTime(+e.target.value)} /> <br />
+          End Time: <input onChange={(e) => setEndTime(+e.target.value)}/> <br />
         
-          <h1>Timer : {time}</h1>
+          <h1>Timer: {time}</h1>
     </div>
   )
 }
